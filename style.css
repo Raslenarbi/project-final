@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, white, white);
+    color: black;
+  }
+  
+  header {
+    background-color: white;
+    color: rgb(252, 250, 250);
+    padding: 10px 0;
+    display: flex;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .cart-container {
+    position: relative;
+  }
+  
+  .cart-btn, .favorites-btn {
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    color: rgb(14, 14, 14);
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .cart, .favorites {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: rgb(26, 24, 24);
+    border: 1px solid #040000;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 250px;
+    z-index: 1000;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .product-card {
+    border: 1px solid #080000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .product-img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #020000;
+  }
+  
+  .product-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .product-price {
+    color: #0c0000;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .add-to-cart, .add-to-favorites {
+    background:white;
+    color: rgb(248, 4, 4);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .add-to-cart {
+    background: white;
+  }
+  h1{
+    color: rgb(253, 2, 2);
+    padding-left: 6rem;
+  }
+  header img{
+    width: 150px;
+    height: 70px;
+  }
+  #cart ,#favorites{
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .container2 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .container3 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .container4 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }

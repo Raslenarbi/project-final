@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="photos/logo.jpg" alt="logo">
+            <div class="cart-container">
+                <button id="favorites-btn" class="favorites-btn">❤️ Favoris (0)</button>
+                <button id="cart-btn" class="cart-btn">🛒 Panier (0)</button>
+                <div id="cart" class="cart hidden">
+                    <h2>Panier</h2>
+                    <ul id="cart-items"></ul>
+                    <p>Total: <span id="total-price">0</span> €</p>
+                </div>
+                <div id="favorites" class="favorites hidden">
+                    <h2>Favoris</h2>
+                    <ul id="favorites-items"></ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="product-card">
+                <img src="photos/iphone-11.webp" alt="iphone 11" class="product-img">
+                <h2 class="product-title">iphone 11</h2>
+                <p class="product-price">250 €</p>
+                <button class="add-to-cart" data-name="iphone 11" data-price="250">🛒</button>
+                <button class="add-to-favorites" data-name="iphone 11"> ❤️</button>
+            </div>
+            <div class="product-card">
+                <img src="photos/iphone-12.jpg" alt="iphone 12" class="product-img">
+                <h2 class="product-title">iphone 12</h2>
+                <p class="product-price">365 €</p>
+                <button class="add-to-cart" data-name="iphone 12" data-price="365">🛒</button>
+                <button class="add-to-favorites" data-name="iphone 12"> ❤️</button>
+            </div>
+            <div class="product-card">
+                <img src="photos/iphone-13.jpg" alt="iphone 13" class="product-img">
+                <h2 class="product-title">iphone 13</h2>
+                <p class="product-price">450 €</p>
+                <button class="add-to-cart" data-name="iphone 13" data-price="450">🛒</button>
+                <button class="add-to-favorites" data-name="iphone 13">❤️ </button>
+            </div>
+            <div class="product-card">
+                <img src="photos/iphone-14.jpg" alt="iphone 14" class="product-img">
+                <h2 class="product-title">iphone 14</h2>
+                <p class="product-price">650 €</p>
+                <button class="add-to-cart" data-name="iphone 14" data-price="650">🛒</button>
+                <button class="add-to-favorites" data-name="iphone 14">❤️ </button>
+            </div>
+            <div class="product-card">
+                <img src="photos/iphone-15.jpg" alt="iphone 15" class="product-img">
+                <h2 class="product-title">iphone 15</h2>
+                <p class="product-price">800 €</p>
+                <button class="add-to-cart" data-name="iphone 15" data-price="800">🛒</button>
+                <button class="add-to-favorites" data-name="iphone 15">❤️ </button>
+            </div>
+        </div>
+
+        
+        <div class="container2">
+            <div class="product-card">
+                <img src="photos/apple watch series 1.jpg" alt=" Apple Watch Series 1" class="product-img">
+                <h2 class="product-title"> Apple Watch Series 1</h2>
+                <p class="product-price">70 €</p>
+                <button class="add-to-cart" data-name="Apple Watch Series 1" data-price="70">🛒</button>
+                <button class="add-to-favorites" data-name="Apple Watch Series 1"> ❤️</button>
+            </div>
+            <div class="product-card">
+                <img src="photos/Apple Watch Series 2.jpg" alt=" Apple Watch Series 2" class="product-img">
+                <h2 class="product-title"> Apple Watch Series 2</h2>
+                <p class="product-price">125 €</p>
+                <button class="add-to-cart" data-name="Apple Watch Series 2" data-price="125">🛒</button>
+                <button class="add-to-favorites" data-name="Apple Watch Series 2"> ❤️</button>
+            </div>
+            <div class="product-card">
+                <img src="photos/Apple WATCH SERIES 3.jpg" alt=" Apple Watch Series 3" class="product-img">
+                <h2 class="product-title"> Apple Watch Series 3</h2>
+                <p class="product-price">220 €</p>
+                <button class="add-to-cart" data-name="Apple Watch Series 3" data-price="220">🛒</button>
+                <button class="add-to-favorites" data-name="Apple Watch Series 3">❤️ </button>
+            </div>
+            <div class="product-card">
+                <img src="photos/Apple Watch Series 4.webp" alt=" Apple Watch Series 4" class="product-img">
+                <h2 class="product-title"> Apple Watch Series 4</h2>
+                <p class="product-price">350 €</p>
+                <button class="add-to-cart" data-name="Apple Watch Series 4" data-price="350">🛒</button>
+                <button class="add-to-favorites" data-name="Apple Watch Series 4">❤️ </button>
+            </div>
+            <div class="product-card">
+                <img src="photos/Apple Watch Series 5.jpg" alt=" Apple Watch Series 5" class="product-img">
+                <h2 class="product-title"> Apple Watch Series 5</h2>
+                <p class="product-price">500 €</p>
+                <button class="add-to-cart" data-name="Apple Watch Series 5" data-price="500">🛒</button>
+                <button class="add-to-favorites" data-name="Apple Watch Series 5">❤️ </button>
+            </div>
+        </div>
+
+
+        <div class="container 3">
+            <div class="product-card">
+                <img src="photos/samsung galaxy s20.jpg" alt="samsung galaxy s20" class="product-img">
+                <h2 class="product-title">samsung galaxy s20</h2>
+                <p class="product-price">265 €</p>
+                <button class="add-to-cart" data-name="samsung galaxy s20" data-price="265">🛒</button>
+                <button class="add-to-favorites" data-name="samsung galaxy s20"> ❤️</button>
+            </div>
+            <div class="product-card">
+                <img src="photos/samsung galaxy s21.jpg" alt="samsung galaxy s21" class="product-img">
+                <h2 class="product-title">samsung galaxy s21</h2>
+                <p class="product-price">430 €</p>
+                <button class="add-to-cart" data-name="samsung galaxy s21" data-price="430">🛒</button>
+                <button class="add-to-favorites" data-name="samsung galaxy s21">❤️ </button>
+            </div>
+            <div class="product-card">
+                <img src="photos/samsung galaxy s22.jpg" alt="samsung galaxy s22" class="product-img">
+                <h2 class="product-title">samsung galaxy s22</h2>
+                <p class="product-price">600 €</p>
+                <button class="add-to-cart" data-name="samsung galaxy s22" data-price="600">🛒</button>
+                <button class="add-to-favorites" data-name="samsung galaxy s22">❤️ </button>
+            </div>
+            <div class="product-card">
+                <img src="photos/samsung galaxy s23.jpg" alt="samsung galaxy s23" class="product-img">
+                <h2 class="product-title">samsung galaxy s23</h2>
+                <p class="product-price">730 €</p>
+                <button class="add-to-cart" data-name="samsung galaxy s23" data-price="730">🛒</button>
+                <button class="add-to-favorites" data-name="samsung galaxy s23">❤️ </button>
+            </div>
+            <div class="product-card">
+                <img src="photos/samsung galaxy s24.jpg" alt="samsung galaxy s24" class="product-img">
+                <h2 class="product-title">samsung galaxy s24</h2>
+                <p class="product-price">800 €</p>
+                <button class="add-to-cart" data-name="samsung galaxy s24" data-price="800">🛒</button>
+                <button class="add-to-favorites" data-name="samsung galaxy s24"> ❤️</button>
+            </div>
+        </div>
+
+
+        <div class="container 4">
+            <div class="product-card">
+                <img src="photos/samsung watch 1.jpg" alt="samsung watch 1" class="product-img">
+                <h2 class="product-title">samsung watch 1</h2>
+                <p class="product-price">70 €</p>
+                <button class="add-to-cart" data-name="samsung watch 1" data-price="70">🛒</button>
+                <button class="add-to-favorites" data-name="samsung watch 1"> ❤️</button>
+            </div>
+            <div class="product-card">
+                <img src="photos/samsung watch 2.jpg" alt="samsung watch 2" class="product-img">
+                <h2 class="product-title">samsung watch 2</h2>
+                <p class="product-price">120 €</p>
+                <button class="add-to-cart" data-name="samsung watch 2" data-price="120">🛒</button>
+                <button class="add-to-favorites" data-name="samsung watch 2">❤️ </button>
+            </div>
+            <div class="product-card">
+                <img src="photos/samsung watch 3.jpg" alt="samsung watch 3" class="product-img">
+                <h2 class="product-title">samsung watch 3</h2>
+                <p class="product-price">230 €</p>
+                <button class="add-to-cart" data-name="samsung watch 3" data-price="230">🛒</button>
+                <button class="add-to-favorites" data-name="samsung watch 3">❤️ </button>
+            </div>
+            <div class="product-card">
+                <img src="photos/samsung watch 4.jpg" alt="samsung watch 4" class="product-img">
+                <h2 class="product-title">samsung watch 4</h2>
+                <p class="product-price">300 €</p>
+                <button class="add-to-cart" data-name="samsung watch 4" data-price="300">🛒</button>
+                <button class="add-to-favorites" data-name="samsung watch 4">❤️ </button>
+            </div>
+            <div class="product-card">
+                <img src="photos/samsung watch 5.jpg" alt="samsung watch 5" class="product-img">
+                <h2 class="product-title">samsung watch 5</h2>
+                <p class="product-price">500 €</p>
+                <button class="add-to-cart" data-name="samsung watch 5" data-price="500">🛒</button>
+                <button class="add-to-favorites" data-name="samsung watch 5"> ❤️</button>
+            </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
